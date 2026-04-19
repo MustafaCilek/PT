@@ -9,3 +9,4 @@ C:\Users\Mustafa\source\repos\Programming Tech Lab\Data\obj\Debug\net8.0\Data.dl
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Mustafa\source\repos\Programming Tech Lab\Data\obj\Debug\net8.0\Data.sourcelink.json

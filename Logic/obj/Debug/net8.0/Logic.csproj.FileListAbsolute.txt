@@ -13,3 +13,4 @@ C:\Users\Mustafa\source\repos\Programming Tech Lab\Logic\obj\Debug\net8.0\Logic.
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Logic\obj\Debug\net8.0\refint\Logic.dll
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Logic\obj\Debug\net8.0\Logic.pdb
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Logic\obj\Debug\net8.0\ref\Logic.dll
+C:\Users\Mustafa\source\repos\Programming Tech Lab\Logic\obj\Debug\net8.0\Logic.sourcelink.json

@@ -102,3 +102,4 @@ C:\Users\Mustafa\source\repos\Programming Tech Lab\Tests\bin\Debug\net8.0\Data.d
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Tests\bin\Debug\net8.0\Logic.dll
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Tests\bin\Debug\net8.0\Data.pdb
 C:\Users\Mustafa\source\repos\Programming Tech Lab\Tests\bin\Debug\net8.0\Logic.pdb
+C:\Users\Mustafa\source\repos\Programming Tech Lab\Tests\obj\Debug\net8.0\Tests.sourcelink.json

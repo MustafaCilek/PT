@@ -1,43 +1,65 @@
-﻿using Data;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Data.API;
+using Data.Models;
+using System;
 
 namespace Logic
 {
     public class LibraryManager
     {
-        private List<Book> _books = new List<Book>();
+        private readonly IDataRepository _repository;
 
-        public void AddBook(Book book)
+        // Dependency Injection: Inject the abstract Data API
+        public LibraryManager(IDataRepository repository)
         {
-            _books.Add(book);
+            _repository = repository;
         }
 
-        public int GetAvailableBookCount()
+        public bool CheckoutBook(string readerId, string copyId)
         {
-            // Using LINQ to quickly count available books
-            return _books.Count(b => b.IsAvailable);
-        }
+            // The Logic layer uses the abstract API to fetch data
+            var copy = _repository.GetBookCopy(copyId);
+            var reader = _repository.GetReader(readerId);
 
-        public bool CheckoutBook(string title)
-        {
-            // Find the first available book with the matching title
-            var book = _books.FirstOrDefault(b => b.Title == title && b.IsAvailable);
-            if (book != null)
+            // Business Logic rules
+            if (copy != null && copy.IsAvailable && reader != null)
             {
-                book.IsAvailable = false;
+                copy.IsAvailable = false;
+                _repository.UpdateBookCopy(copy);
+
+                // Record the State Change Event
+                var checkoutEvent = new LibraryEvent
+                {
+                    EventId = Guid.NewGuid().ToString(),
+                    Actor = reader,
+                    TargetCopy = copy,
+                    Timestamp = DateTime.Now,
+                    ActionType = "Checkout"
+                };
+                _repository.RecordEvent(checkoutEvent);
+
                 return true;
             }
-            return false; // Book not found or already checked out
+            return false;
         }
 
-        public bool ReturnBook(string title)
+        public bool ReturnBook(string copyId)
         {
-            // Find a checked-out book with the matching title
-            var book = _books.FirstOrDefault(b => b.Title == title && !b.IsAvailable);
-            if (book != null)
+            var copy = _repository.GetBookCopy(copyId);
+
+            if (copy != null && !copy.IsAvailable)
             {
-                book.IsAvailable = true;
+                copy.IsAvailable = true;
+                _repository.UpdateBookCopy(copy);
+
+                var returnEvent = new LibraryEvent
+                {
+                    EventId = Guid.NewGuid().ToString(),
+                    TargetCopy = copy,
+                    Timestamp = DateTime.Now,
+                    ActionType = "Return"
+                };
+                _repository.RecordEvent(returnEvent);
+
                 return true;
             }
             return false;

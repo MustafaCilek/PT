@@ -18,3 +18,4 @@ C:\Users\Mustafa\source\repos\Programming Tech Lab\App\obj\Debug\net8.0\refint\A
 C:\Users\Mustafa\source\repos\Programming Tech Lab\App\obj\Debug\net8.0\App.pdb
 C:\Users\Mustafa\source\repos\Programming Tech Lab\App\obj\Debug\net8.0\App.genruntimeconfig.cache
 C:\Users\Mustafa\source\repos\Programming Tech Lab\App\obj\Debug\net8.0\ref\App.dll
+C:\Users\Mustafa\source\repos\Programming Tech Lab\App\obj\Debug\net8.0\App.sourcelink.json
