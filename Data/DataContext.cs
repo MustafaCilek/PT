@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Data
 {
-    public class DataContext
+    internal class DataContext
     {
         public List<Reader> Readers { get; set; } = new List<Reader>();
 

@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Data
 {
-    public class DataRepository : IDataRepository
+    internal class DataRepository : IDataRepository
     {
         private readonly DataContext _context;
 
