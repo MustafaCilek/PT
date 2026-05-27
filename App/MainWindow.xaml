@@ -1,0 +1,32 @@
+﻿<Window x:Class="App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Library Manager (Task 2)" Height="600" Width="800">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Master View: Catalog (Click a book to see copies)" 
+                   FontWeight="Bold" FontSize="16" Grid.Row="0" Margin="0,0,0,5"/>
+
+        <DataGrid Grid.Row="1" 
+                  ItemsSource="{Binding Catalog}" 
+                  SelectedItem="{Binding SelectedBook}" 
+                  AutoGenerateColumns="True" 
+                  IsReadOnly="True" 
+                  SelectionMode="Single"/>
+
+        <TextBlock Text="Detail View: Copies for Selected Book" 
+                   FontWeight="Bold" FontSize="16" Grid.Row="2" Margin="0,20,0,5"/>
+
+        <DataGrid Grid.Row="3" 
+                  ItemsSource="{Binding FilteredCopies}" 
+                  AutoGenerateColumns="True" 
+                  IsReadOnly="True"/>
+    </Grid>
+</Window>

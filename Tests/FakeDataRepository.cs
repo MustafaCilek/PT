@@ -5,21 +5,23 @@ using System.Linq;
 
 namespace Tests
 {
-    // This allows us to test the Logic layer independently of the real Data layer
     public class FakeDataRepository : IDataRepository
     {
-        public List<Reader> Readers = new List<Reader>();
-        public List<BookCopy> Copies = new List<BookCopy>();
-        public List<LibraryEvent> Events = new List<LibraryEvent>();
+        // 1. The Fake "Database" Memory
+        public List<Reader> Readers { get; set; } = new List<Reader>();
+        public Dictionary<string, Book> Catalog { get; set; } = new Dictionary<string, Book>();
+        public List<BookCopy> CurrentState { get; set; } = new List<BookCopy>();
+        public List<LibraryEvent> Events { get; set; } = new List<LibraryEvent>();
 
+        // 2. The Original Contract Methods (From Task 1)
         public void AddReader(Reader reader) => Readers.Add(reader);
         public Reader GetReader(string id) => Readers.FirstOrDefault(r => r.ReaderId == id);
 
-        public void AddBookToCatalog(Book book) { } // Not needed for current logic tests
-        public Book GetBook(string isbn) => null;
+        public void AddBookToCatalog(Book book) => Catalog.Add(book.Isbn, book);
+        public Book GetBook(string isbn) => Catalog.ContainsKey(isbn) ? Catalog[isbn] : null;
 
-        public void AddBookCopy(BookCopy copy) => Copies.Add(copy);
-        public BookCopy GetBookCopy(string copyId) => Copies.FirstOrDefault(c => c.CopyId == copyId);
+        public void AddBookCopy(BookCopy copy) => CurrentState.Add(copy);
+        public BookCopy GetBookCopy(string copyId) => CurrentState.FirstOrDefault(c => c.CopyId == copyId);
 
         public void UpdateBookCopy(BookCopy copy)
         {
@@ -29,5 +31,9 @@ namespace Tests
 
         public void RecordEvent(LibraryEvent libEvent) => Events.Add(libEvent);
         public IEnumerable<LibraryEvent> GetAllEvents() => Events;
+
+        // 3. The New UI Methods (From Task 2)
+        public IEnumerable<Book> GetAllBooks() => Catalog.Values.ToList();
+        public IEnumerable<BookCopy> GetAllBookCopies() => CurrentState;
     }
 }

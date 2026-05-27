@@ -1,17 +1,32 @@
-﻿// Data/DataContext.cs
-using Data.Models;
-using System.Collections.Generic;
+﻿using Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Data
 {
-    internal class DataContext
+    // Inherit from DbContext to make this a real ORM database class
+    internal class DataContext : DbContext
     {
-        public List<Reader> Readers { get; set; } = new List<Reader>();
+        // DbSet represents the actual SQL tables in your database
+        public DbSet<Reader> Readers { get; set; }
+        public DbSet<Book> Catalog { get; set; }
+        public DbSet<BookCopy> CurrentState { get; set; }
+        public DbSet<LibraryEvent> Events { get; set; }
 
-        // "Catalog: a dictionary of the goods descriptions"
-        public Dictionary<string, Book> Catalog { get; set; } = new Dictionary<string, Book>();
+        // This method configures the physical SQL database file
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // It will create a local file named "library.db" on your computer
+            optionsBuilder.UseSqlite("Data Source=library.db");
+        }
 
-        public List<BookCopy> CurrentState { get; set; } = new List<BookCopy>();
-        public List<LibraryEvent> Events { get; set; } = new List<LibraryEvent>();
+        // This method tells the ORM about any special rules for your models
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Tell EF Core exactly which properties are the Primary Keys for the SQL tables
+            modelBuilder.Entity<Book>().HasKey(b => b.Isbn);
+            modelBuilder.Entity<BookCopy>().HasKey(c => c.CopyId);
+            modelBuilder.Entity<Reader>().HasKey(r => r.ReaderId);
+            modelBuilder.Entity<LibraryEvent>().HasKey(e => e.EventId);
+        }
     }
 }

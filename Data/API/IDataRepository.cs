@@ -22,5 +22,8 @@ namespace Data.API
         // Events
         void RecordEvent(LibraryEvent libEvent);
         IEnumerable<LibraryEvent> GetAllEvents();
+
+        IEnumerable<Book> GetAllBooks();
+        IEnumerable<BookCopy> GetAllBookCopies();
     }
 }

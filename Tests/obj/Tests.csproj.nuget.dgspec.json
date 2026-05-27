@@ -4,6 +4,74 @@
     "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj",
+        "projectName": "App",
+        "projectPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj",
+        "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Logic\\Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -45,6 +113,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -144,16 +218,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {
+              "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj": {
+                "projectPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj"
+              },
               "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\Data.csproj"
               },
@@ -176,8 +253,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

@@ -1,10 +1,13 @@
 ﻿using Data.API;
 using Data.Models;
+using Logic.API;
 using System;
+using System.Collections.Generic;
 
 namespace Logic
 {
-    public class LibraryManager
+    // Inherit from the new abstract API
+    public class LibraryManager : ILibraryManager
     {
         private readonly IDataRepository _repository;
 
@@ -63,6 +66,18 @@ namespace Logic
                 return true;
             }
             return false;
+        }
+
+        // --- NEW TASK 2 METHODS FOR THE UI ---
+
+        public IEnumerable<Book> GetAllBooks()
+        {
+            return _repository.GetAllBooks();
+        }
+
+        public IEnumerable<BookCopy> GetAllBookCopies()
+        {
+            return _repository.GetAllBookCopies();
         }
     }
 }
