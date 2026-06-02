@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\fakedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|solutionrelative:tests\\fakedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\data\\api\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|solutionrelative:data\\api\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\data\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|solutionrelative:data\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\mainviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\data\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|solutionrelative:data\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4404972-8E07-4F2A-AC24-910B9EFC88F5}|Logic\\Logic.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\logic\\logicfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D7E178B-2025-4960-A68B-7D72CB9CE578}|App\\App.csproj|solutionrelative:app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -65,14 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4404972-8E07-4F2A-AC24-910B9EFC88F5}|Logic\\Logic.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\logic\\librarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4404972-8E07-4F2A-AC24-910B9EFC88F5}|Logic\\Logic.csproj|solutionrelative:logic\\librarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\fakedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|solutionrelative:tests\\fakedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\data\\api\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DDA7578-65E4-408E-982D-7FE21F9D08CE}|Data\\Data.csproj|solutionrelative:data\\api\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57EBA0F4-18C8-435D-8A18-6BEEFD18BF22}|Tests\\Tests.csproj|c:\\users\\mustafa\\source\\repos\\programming tech lab\\tests\\librarymanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,46 +114,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tests",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\Tests.csproj",
-              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\Tests.csproj",
-              "RelativeToolTip": "Tests\\Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-27T15:22:50.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainViewModelTests.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\MainViewModelTests.cs",
-              "RelativeDocumentMoniker": "Tests\\MainViewModelTests.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\MainViewModelTests.cs",
-              "RelativeToolTip": "Tests\\MainViewModelTests.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAADwv0kAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:21:19.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\DataRepository.cs",
               "RelativeDocumentMoniker": "Data\\DataRepository.cs",
               "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\DataRepository.cs",
               "RelativeToolTip": "Data\\DataRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:20:34.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:20:34.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml.cs",
+              "RelativeToolTip": "App\\App.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:52:13.715Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\API\\IDataRepository.cs",
+              "RelativeDocumentMoniker": "Data\\API\\IDataRepository.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\API\\IDataRepository.cs",
+              "RelativeToolTip": "Data\\API\\IDataRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T15:40:29.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FakeDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\FakeDataRepository.cs",
+              "RelativeDocumentMoniker": "Tests\\FakeDataRepository.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\FakeDataRepository.cs",
+              "RelativeToolTip": "Tests\\FakeDataRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:56:25.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml",
+              "RelativeDocumentMoniker": "App\\App.xaml",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml",
+              "RelativeToolTip": "App\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T11:59:47.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "App.csproj",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.csproj",
               "RelativeDocumentMoniker": "App\\App.csproj",
@@ -161,24 +182,35 @@
               "RelativeToolTip": "App\\App.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-27T11:50:51.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T11:50:51.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml",
-              "RelativeDocumentMoniker": "App\\App.xaml",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml",
-              "RelativeToolTip": "App\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-27T11:59:47.272Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T15:22:50.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "MainViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\MainViewModelTests.cs",
+              "RelativeDocumentMoniker": "Tests\\MainViewModelTests.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\MainViewModelTests.cs",
+              "RelativeToolTip": "Tests\\MainViewModelTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:21:19.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -186,12 +218,11 @@
               "RelativeToolTip": "Data\\DataContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:20:48.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:20:48.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DataFactory.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\DataFactory.cs",
               "RelativeDocumentMoniker": "Data\\DataFactory.cs",
@@ -199,37 +230,22 @@
               "RelativeToolTip": "Data\\DataFactory.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:07:45.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:07:45.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\App.xaml.cs",
-              "RelativeToolTip": "App\\App.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T14:52:13.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\MainWindow.xaml",
               "RelativeDocumentMoniker": "App\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\MainWindow.xaml",
               "RelativeToolTip": "App\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-27T14:53:12.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T14:53:12.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "App\\ViewModels\\MainViewModel.cs",
@@ -237,12 +253,11 @@
               "RelativeToolTip": "App\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAADwvz0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:12:18.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:12:18.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LogicFactory.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Logic\\LogicFactory.cs",
               "RelativeDocumentMoniker": "Logic\\LogicFactory.cs",
@@ -250,12 +265,11 @@
               "RelativeToolTip": "Logic\\LogicFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:08:13.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:08:13.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\Core\\RelayCommand.cs",
               "RelativeDocumentMoniker": "App\\Core\\RelayCommand.cs",
@@ -267,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ObserveableObject.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\App\\Core\\ObserveableObject.cs",
               "RelativeDocumentMoniker": "App\\Core\\ObserveableObject.cs",
@@ -279,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Data.csproj",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
@@ -287,12 +301,11 @@
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-22T17:24:25.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T17:24:25.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ILibraryManager.cs.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Logic\\API\\ILibraryManager.cs.cs",
               "RelativeDocumentMoniker": "Logic\\API\\ILibraryManager.cs.cs",
@@ -305,18 +318,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "IDataRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\API\\IDataRepository.cs",
-              "RelativeDocumentMoniker": "Data\\API\\IDataRepository.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Data\\API\\IDataRepository.cs",
-              "RelativeToolTip": "Data\\API\\IDataRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T15:40:29.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "LibraryManager.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Logic\\LibraryManager.cs",
               "RelativeDocumentMoniker": "Logic\\LibraryManager.cs",
@@ -325,18 +326,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T17:00:50.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FakeDataRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\FakeDataRepository.cs",
-              "RelativeDocumentMoniker": "Tests\\FakeDataRepository.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\source\\repos\\Programming Tech Lab\\Tests\\FakeDataRepository.cs",
-              "RelativeToolTip": "Tests\\FakeDataRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:56:25.723Z"
             },
             {
               "$type": "Document",
@@ -360,8 +349,7 @@
               "RelativeToolTip": "Logic\\Logic.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-05T15:29:29.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T15:29:29.288Z"
             },
             {
               "$type": "Document",

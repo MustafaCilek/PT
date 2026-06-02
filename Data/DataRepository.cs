@@ -60,6 +60,14 @@ namespace Data
             _context.SaveChanges();
         }
 
+        public IEnumerable<Book> GetAllBooksWithQuerySyntax()
+        {
+            // This is the "Query Syntax" (SQL-like)
+            var books = from b in _context.Catalog
+                        select b;
+
+            return books.ToList();
+        }
         public IEnumerable<LibraryEvent> GetAllEvents() => _context.Events.ToList();
 
         public IEnumerable<Book> GetAllBooks() => _context.Catalog.ToList();

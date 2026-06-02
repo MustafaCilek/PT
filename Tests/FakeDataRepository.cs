@@ -35,5 +35,12 @@ namespace Tests
         // 3. The New UI Methods (From Task 2)
         public IEnumerable<Book> GetAllBooks() => Catalog.Values.ToList();
         public IEnumerable<BookCopy> GetAllBookCopies() => CurrentState;
+
+        public IEnumerable<Book> GetAllBooksWithQuerySyntax()
+        {
+            // Since this is a simple List/Dictionary, we can just return the values 
+            // converted to a list. This satisfies the interface requirement.
+            return Catalog.Values.ToList();
+        }
     }
 }

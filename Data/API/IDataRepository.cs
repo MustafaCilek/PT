@@ -25,5 +25,7 @@ namespace Data.API
 
         IEnumerable<Book> GetAllBooks();
         IEnumerable<BookCopy> GetAllBookCopies();
+
+        IEnumerable<Book> GetAllBooksWithQuerySyntax();
     }
 }
